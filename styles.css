@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "San Francisco", Arial, sans-serif;
+}
+
+section {
+  position: relative;
+  height: 600px;
+}
+
+.black-section {
+  background-color: #000;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 32px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: 400px; 
+}
+.black-section a,
+.white-section a {
+  color: blue;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.black-section a:hover,
+.white-section a:hover {
+  text-decoration: underline;
+}
+
+
+  
+
+/*Footer styles */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#footer a:hover {
+    color: #ccc;
+}
+
+
+
+html{
+    overflow-x: hidden;
+}
